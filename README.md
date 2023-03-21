@@ -26,6 +26,7 @@ The file was named Simplesafe in Contracts.
 ## Step 2：
 install Hardhat environment by some useful link：https://hardhat.org/tutorial/creating-a-new-hardhat-project
 
+### Library
 ```bash
 npm install --save-dev hardhat
 npm install --save-dev @nomicfoundation/hardhat-toolbox
@@ -34,3 +35,6 @@ npm install ethers mocha
 npm install --save-dev @openzeppelin/contracts
 npm install --save dotenv 
  ```
+ * Some challenge I facing : 
+The environment Library of ethers seems to be to new for my Solidity compile version and i am using Window system, which need to use "--save-dev" in order to ensure the download path was correct. Otherwise, you wil face these kind of error message. 
+ 
