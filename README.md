@@ -37,4 +37,13 @@ npm install --save dotenv
  ```
  * Some challenge I facing : 
 The environment Library of ethers seems to be to new for my Solidity compile version and i am using Window system, which need to use "--save-dev" in order to ensure the download path was correct. Otherwise, you wil face these kind of error message. 
- 
+
+## Step 3：
+Using the hardhat to compile these files, you can insert this command on you Terminal.
+```bash
+$ npx hardhat compile
+ ```
+ if you receive the error message said "there nothing to compile", you can insert this command on you Terminal in order to clean the data in ram.
+ ```bash
+$ npx hardhat clean 
+ ```
