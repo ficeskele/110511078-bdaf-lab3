@@ -47,3 +47,11 @@ $ npx hardhat compile
  ```bash
 $ npx hardhat clean 
  ```
+ 
+## Step 4：
+create a new test file, which means you have to use javascript to simulate all the case the contract running though.
+
+The file was named testice in test. Then you can insert this command on you Terminal.
+```bash
+$ npx hardhat test
+ ```
