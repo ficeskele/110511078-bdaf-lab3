@@ -21,8 +21,16 @@
 ## Step 1：
 you have to write a contract about deposit and withdraw with Solidity.
 
+The file was named Simplesafe in Contracts.
+
 ## Step 2：
-install Hardhat environment 
-some useful link：https://hardhat.org/tutorial/creating-a-new-hardhat-project
+install Hardhat environment by some useful link：https://hardhat.org/tutorial/creating-a-new-hardhat-project
 
-
+```bash
+npm install --save-dev hardhat
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+npm install --save @nomiclabs/hardhat-etherscan
+npm install ethers mocha
+npm install --save-dev @openzeppelin/contracts
+npm install --save dotenv 
+ ```
