@@ -67,7 +67,8 @@ Here i use the goerli test chain.  Then you can insert this command on you Termi
 ```bash
 $ npx hardhat run scripts/deploy.js --network goerli
  ```
-* REMEMBER YOU HAVE TO CONSTRUCT A .ENV FILE TO set your PRIVATE_KEY, infura ENDPOINT_URL (goerli) and ETHERSCAN_API_KEY.
+* REMEMBER YOU HAVE TO CONSTRUCT A .ENV FILE 
+To set your PRIVATE_KEY, infura ENDPOINT_URL (goerli) and ETHERSCAN_API_KEY.
 ## Step 6：
 Once you get the address of the contract, by executing deploy.js. Then you can insert this command on you Terminal in order to verify.
 ```bash
