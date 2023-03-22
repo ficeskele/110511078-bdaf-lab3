@@ -36,7 +36,7 @@ npm install --save-dev @openzeppelin/contracts
 npm install --save dotenv 
  ```
  * Some challenge I facing : 
-The environment Library of ethers seems to be to new for my Solidity compile version and i am using Window system, which need to use "--save-dev" in order to ensure the download path was correct. Otherwise, you wil face these kind of error message. 
+The environment Library of ethers seems to be to new for my Solidity compile version and i am using Window system, which need to use "--save-dev" in order to ensure the download path was correct. Otherwise, you wil face the situation that hardhat couldn't find the ethers library.
 
 ## Step 3：
 Using the hardhat to compile these files, you can insert this command on you Terminal.
