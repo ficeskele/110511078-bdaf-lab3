@@ -62,11 +62,12 @@ If you receive the error message, you can firstly check config file.
 
 ## Step 5：
 You can put these contracts on chain.
-Here i use the goerli test chain.  Then you can insert this command on you Terminal.
+Here i use the goerli test chain.  Then you can insert this command on you Terminal. Here i use infura API to complete this mission.
+
 ```bash
 $ npx hardhat run scripts/deploy.js --network goerli
  ```
-
+* REMEMBER YOU HAVE TO CONSTRUCT A .ENV FILE TO set your PRIVATE_KEY, infura ENDPOINT_URL (goerli) and ETHERSCAN_API_KEY.
 ## Step 6：
 Once you get the address of the contract, by executing deploy.js. Then you can insert this command on you Terminal in order to verify.
 ```bash
