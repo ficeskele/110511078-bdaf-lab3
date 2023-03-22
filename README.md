@@ -72,7 +72,7 @@ To set your PRIVATE_KEY, infura ENDPOINT_URL (goerli) and ETHERSCAN_API_KEY.
 ## Step 6：
 Once you get the address of the contract, by executing deploy.js. Then you can insert this command on you Terminal in order to verify.
 ```bash
-$ npx hardhat verify --network goerli 0x90393769c0B14AF18796e66a8A3bc110D13A32aB
+$ npx hardhat verify --network goerli [CONSTRACT_ADDRESS]
  ```
 * 0x90393769c0B14AF18796e66a8A3bc110D13A32aB is the address of my contracts.
 
